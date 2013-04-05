@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  copyright (C) 2013 (株)柊ソフト開発
+
+  Dicom Viewer Prototypeは、Dicomフォーマットファイルの「画像」及び「タグ情報」を表示するソフトウェアです
+  GPLv3(General Public License) に準じています
+
+  リリース日: 28-02-2013
+  Version: 1.0
+ -->
+<resources>
+    <string name="app_name">DicomViewerPrototype</string>
+    <string name="app_name_file_chooser">DicomViewerPrototype</string>
+    <string name="brightness">明るさ調節</string>
+    <string name="brightnessvalue">0</string>
+    <string name="location">Location</string>
+    <string name="cant_read_folder">folder can\'t be read!</string>
+    <string name="nnew">New</string>
+    <string name="select">Select</string>
+    <string name="file_name">File name:</string>
+    <string name="cancel">Cancel</string>
+    <string name="create">Save</string>
+    <string name="no_data">No Data</string>
+    <string name="button2">DCMファイル選択</string>
+    <string name="button1">タグ情報表示</string>
+    <string name="toggle_on">イメージ反転　ON</string>
+    <string name="toggle_off">イメージ反転　OFF</string>
+    <string name="about_message">
+		"「DicomViewerProtoType」 はDicomフォーマットファイルの「画像」及び「タグ情報」を表示するビューワーです.\n\nGPLv3ライセンスの"
+		"「Minimal Dicom Viewer 」をベースに機能追加した調査サンプル（試作品）です. \n\nAndroid is a trademark of Google Inc. Use of this trademark is subject to Google Permissions "
+		"(http://www.google.com/permissions/index.html).\n\n2013 (株)柊ソフト開発"
+    </string>
+    <string name="no_external_device_found">  "外部デバイスが見つかりません"</string>
+	<string name="app_will_quit_now">  "アプリを終了します"</string>
+	<string name="media_storage_device_not_supported">  "メディアストレージディレクトリ (DicomDir) はサポートされていません"</string>
+	<string name="error_loading_file">  "エラー：ファイルロードエラー"</string>
+	<string name="error_opening_file">  "エラー：ファイルオープンエラー"</string>
+	<string name="error_unable_loading_file">  "エラー：ファイルがロード出来ません"</string>
+	<string name="cannot_retrieve_name">  "ファイル名が取得出来ません"</string>
+	<string name="no_dicom_files_in_directory">  "ディレクトリにはダイコム拡張子(.dcm)のファイルがありません"</string>
+	<string name="file_is_not_in_directory">  "ディレクトリにはファイルがありません"</string>
+	<string name="file">  "選択ファイル "</string>
+	<string name="loading_image">  "イメージロード中 ・・・"</string>
+	<string name="low_memory">  "Low Memory!"</string>
+	<string name="message_external_storage_error">
+	    外部ストレージがありません.\n
+	    追加してください.\n
+	</string>
+	<string name="message_external_storage_header_error">  "エラー： 外部ストレージがありません"</string>
+	<string name="header_out_of_memory_error">  "エラー：out of Memory"</string>
+	<string name="out_of_memory_error">
+		メモリ不足エラー: イメージをロード中に
+		メモリ不足エラーが生じました.\n\n
+		Your file is too large for your Android(TM) system
+	</string>
+	<string name="header_index_out_of_bounds">  "エラー： イメージ描画エラー"</string>
+	<string name="index_out_of_bounds">
+		An uncatchable error occurs while drawing the Dicom image.
+		ダイコムイメージ描画中に捕捉な不能のエラーが生じました
+	</string>
+	<string name="configure_disclaimer_dialog">  "免責事項ダイアログ"</string>
+	<string name="show_disclaimer_dialog">  "免責事項ダイアログを表示"</string>
+	<string name="hide_disclaimer_dialog">  "免責事項ダイアログを非表示"</string>
+	<string name="button_ok">  "OK"</string>
+	<string name="button_cancel">  "キャンセル"</string>
+	<string name="button_select">  "選択"</string>
+	<string name="button_new">  "NEW"</string>
+	<string name="button_yes">  "YES"</string>
+	<string name="button_no">  "NO"</string>
+	<string name="button_create">  "CREATE"</string>
+	<string name="overwrite_existing_file_dialog_text">  "上書きしますか ?"</string>
+	<string name="overwrite_existing_file_dialog_text_2">  ""</string>
+	<string name="overwrite_existing_file_dialog_header">  "既存ファイルの上書き"</string>
+	<string name="label_file_name">  "File Name"</string>
+	<string name="label_location">  "Location"</string>
+	<string name="menu_about">  "About"</string>
+	<string name="about_header">  "DicomViewerPrototypeについて"</string>
+	<string name="select_file">  "ファイル(.dcm)を選択して下さい"</string>
+
+	<color name="gray">#ffff0000</color>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  copyright (C) 2013 (株)柊ソフト開発
+  Dicom Viewer Prototypeは、Dicomフォーマットファイルの「画像」及び「タグ情報」を表示するソフトウェアです
+  GPLv3(General Public License) に準じています
+
+  リリース日: 28-02-2013
+  Version: 1.0
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.hiiragi.med.dev"
+      android:versionCode="3"
+      android:versionName="1.1">
+
+    <application android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:debuggable="true">
+
+        <activity android:name=".DicomViewerPrototype" android:label="@string/app_name"
+                  android:configChanges="keyboardHidden|orientation" android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+        </activity>
+
+		<activity android:name=".MDVFileChooser" android:label="@string/app_name">
+
+    		<intent-filter>
+        		<action android:name="android.intent.action.MAIN" />
+            	<category android:name="android.intent.category.LAUNCHER" />
+        	</intent-filter>
+
+    	</activity>
+
+    	<activity android:name=".FileDialog">
+		</activity>
+
+		<activity android:name=".MyListActivity">
+		</activity>
+
+    </application>
+	<uses-sdk android:minSdkVersion="8" android:targetSdkVersion="10" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+</manifest>

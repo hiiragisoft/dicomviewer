@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  copyright (C) 2013 (株)柊ソフト開発
+
+  Dicom Viewer Prototypeは、Dicomフォーマットファイルの「画像」及び「タグ情報」を表示するソフトウェアです
+  GPLv3(General Public License) に準じています
+
+  リリース日: 28-02-2013
+  Version: 1.0
+ -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+<FrameLayout
+	   	android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+		<com.hiiragi.med.dev.DicomImageView android:id="@+id/imageView"
+			android:layout_width="fill_parent"
+			android:scaleType="matrix" android:layout_height="fill_parent">
+		</com.hiiragi.med.dev.DicomImageView>
+</FrameLayout>
+
+<LinearLayout android:id="@+id/button"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button2" />
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button1" />
+    <TextView android:layout_width="wrap_content"
+        android:id="@+id/currentFileLabel"
+        android:layout_height="wrap_content">
+    </TextView>
+</LinearLayout>
+
+<LinearLayout android:id="@+id/invert" android:orientation="vertical" android:paddingBottom="50dp"
+    android:paddingLeft="5dp"
+    android:gravity="center_vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true">
+
+	<ToggleButton android:textOn="Toggle On" android:textOff="Toggle Off"
+		android:id="@+id/ToggleButton01" android:layout_width="wrap_content"
+		android:paddingBottom="15dp"
+		android:layout_height="wrap_content">
+	</ToggleButton>
+
+</LinearLayout>
+
+<LinearLayout android:id="@+id/brightness" android:orientation="horizontal"
+    android:paddingBottom="10dp"
+    android:paddingLeft="15dp"
+    android:gravity="center_vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true">
+ <!--
+    <Button android:layout_width="wrap_content" android:id="@+id/prevButton" android:background="@android:drawable/ic_media_rew" android:layout_marginRight="10dp" android:onClick="prevImage" android:layout_height="match_parent"></Button>
+ -->
+    <TextView android:text="@string/brightness" android:id="@+id/brightnessLabel" android:paddingRight="3dp" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <SeekBar android:layout_height="wrap_content" android:id="@+id/brightnessSeekBar" android:layout_width="wrap_content" android:layout_weight="1." android:paddingBottom="10dp" android:paddingTop="10dp"></SeekBar>
+    <TextView android:layout_height="wrap_content" android:text="@string/brightnessvalue" android:id="@+id/brightnessValue" android:paddingLeft="3dp" android:layout_width="wrap_content"></TextView>
+ <!--
+    <Button android:layout_width="wrap_content" android:id="@+id/nextButton" android:background="@android:drawable/ic_media_ff" android:layout_marginLeft="10dp" android:onClick="nextImage" android:layout_height="match_parent"></Button>
+-->
+</LinearLayout>
+<!--
+<TableLayout android:id="@+id/tableLayout1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content" android:id="@+id/currentFileLabel" android:layout_height="wrap_content"></TextView>
+    </TableRow>
+    <TableRow android:id="@+id/tableRow2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:id="@+id/PatientNameLabel" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+        <TextView android:id="@+id/PatientNameValue" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    </TableRow>
+    <TableRow android:id="@+id/tableRow3" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/PatientPrenameLabel"></TextView>
+        <TextView android:id="@+id/PatientPrenameValue" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    </TableRow>
+    <TableRow android:id="@+id/tableRow4" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:id="@+id/PatientBirthLabel" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+        <TextView android:id="@+id/PatientBirthValue" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    </TableRow>
+</TableLayout>
+-->
+
+
+</RelativeLayout>

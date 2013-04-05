@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  copyright (C) 2013 Hiiragi Software Development
+
+  Released date: 28-02-2013
+  Version: 1.0
+ -->
+<resources>
+    <string name="app_name">DicomViewerPrototype</string>
+    <string name="app_name_file_chooser">DicomViewerPrototype</string>
+    <string name="brightness">brightness</string>
+    <string name="brightnessvalue">0</string>
+    <string name="location">Location</string>
+    <string name="cant_read_folder">folder can\'t be read!</string>
+    <string name="nnew">New</string>
+    <string name="select">Select</string>
+    <string name="file_name">File name:</string>
+    <string name="cancel">Cancel</string>
+    <string name="create">Save</string>
+    <string name="no_data">No Data</string>
+    <string name="button2">Select  Dicom  File</string>
+    <string name="button1">Display Tag Info</string>
+    <string name="toggle_on">Invert Image　ON</string>
+    <string name="toggle_off">Invert Image　OFF</string>
+    <string name="about_message">
+		"「DicomViewer Prototype」  is a prototype of a minimalistic Dicom Viewer developed for the Android platform.\n\n"
+		"Android is a trademark of Google Inc. Use of this trademark is subject to Google Permissions "
+		"(http://www.google.com/permissions/index.html).\n\n2013 hiiragi software development"
+    </string>
+    <string name="no_external_device_found">  "No external Device found"</string>
+	<string name="app_will_quit_now">  "App will quit now"</string>
+	<string name="media_storage_device_not_supported">  "Media Storage Directories (DicomDir) are not supported yet"</string>
+	<string name="error_loading_file">  "Error Loading file"</string>
+	<string name="error_opening_file">  "Error Opening  file"</string>
+	<string name="menu_about">  "About"</string>
+	<string name="about_header">  "「DCM_Viewer_ProtoType」"</string>
+	<string name="error_unable_loading_file">  "The file cannot be loaded"</string>
+	<string name="cannot_retrieve_name">  "Cannot retrieve its name"</string>
+	<string name="no_dicom_files_in_directory">  "No Dicom files within directory"</string>
+	<string name="file_is_not_in_directory">  "File is not in directory"</string>
+	<string name="file">  "File"</string>
+	<string name="loading_image">  "Loading Image・・・"</string>
+	<string name="low_memory">  "Low Memory!"</string>
+	<string name="message_external_storage_error">
+	    There is no external storage.\n
+	    1) There is no external storage : add one.\n
+	    2) Your external storage is used by a computer:
+	    Disconnect the it from the computer.
+	</string>
+	<string name="header_out_of_memory_error">  "Error out of Memory"</string>
+	<string name="out_of_memory_error">
+		OutOfMemoryError: During the loading of the image "
+		an out of memory error occurred.\n\n
+		Your file is too large for your Android(TM) system
+	</string>
+	<string name="header_index_out_of_bounds">  "Error Image drawing"</string>
+	<string name="index_out_of_bounds">
+		An uncatchable error occurs while drawing the Dicom image.
+	</string>
+	<string name="configure_disclaimer_dialog">  "Configure Disclaimer Dialog"</string>
+	<string name="show_disclaimer_dialog">  "Show Disclaimer Dialog"</string>
+	<string name="hide_disclaimer_dialog">  "Hide Disclaimer Dialog"</string>
+	<string name="button_ok">  "OK"</string>
+	<string name="button_cancel">  "Cancel"</string>
+	<string name="button_select">  "SELECT"</string>
+	<string name="button_new">  "NEW"</string>
+	<string name="button_yes">  "YES"</string>
+	<string name="button_no">  "NO"</string>
+	<string name="button_create">  "CREATE"</string>
+	<string name="overwrite_existing_file_dialog_text">  "Do you want to overwrite the following file ?"</string>
+	<string name="overwrite_existing_file_dialog_text_2">  ""</string>
+	<string name="overwrite_existing_file_dialog_header">  "Overwrite existing file"</string>
+	<string name="label_file_name">  "File Name"</string>
+	<string name="label_location">  "Location"</string>
+	<string name="select_file">  "Select file (.dcm)"</string>
+
+	<color name="gray">#ffff0000</color>
+</resources>
